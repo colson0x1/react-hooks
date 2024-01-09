@@ -5,6 +5,7 @@ import CounterHooks from './CounterHooks';
 import FormClass from './FormClass';
 import FormHooks from './FormHooks';
 import FormInputHook from './FormInputHook';
+import StarWarsApi from './StarWarsApiUseEffect';
 import Toggler from './Toggler';
 import Trigger from './TriggerPageTitleUpdate';
 
@@ -20,7 +21,8 @@ class App extends Component {
         <FormHooks />
         <FormInputHook />
         */}
-        <Trigger />
+        {/* <Trigger /> */}
+        <StarWarsApi />
       </div>
     );
   }
