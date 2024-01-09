@@ -13,15 +13,13 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-        {/*
         <CounterClass />
         <CounterHooks />
         <Toggler />
         <FormClass />
         <FormHooks />
         <FormInputHook />
-        */}
-        {/* <Trigger /> */}
+        <Trigger />
         <StarWarsApi />
       </div>
     );
